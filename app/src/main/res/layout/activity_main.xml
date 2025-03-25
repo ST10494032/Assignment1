@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meal_prep_ideas"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="600dp"
+        android:background="#E0F2F1"
+        android:fontFamily="casual"
+        android:text="Meal Suggestions!!!"
+        android:textColor="#020202"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="467dp"
+        android:background="#E0F2F1"
+        android:ems="10"
+        android:hint="Enter your time"
+        android:inputType="text"
+        android:textColor="#101010"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonSuggestion"
+        android:layout_width="295dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="341dp"
+        android:text="Get Suggestion"
+        android:textColor="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputTime" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="187dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="233dp"
+        android:text="Reset"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSuggestion"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textSuggestion"
+        android:layout_width="377dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="162dp"
+        android:background="#E0F2F1"
+        android:text="Get Meal Suggestion"
+        android:textColor="#0F0E0E"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonReset"
+        app:layout_constraintVertical_bias="0.252" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
