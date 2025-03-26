@@ -13,8 +13,11 @@ Restart your Application
 ## Question 2 
 ### Always invalid output
 Enter: morning, mid-morning, afternoon, mid-afternoon, dinner, after dinner
+NOTE: DO NOT CHANGE THE SPELLING OR PUNCUATION OF THE WORDS.
 
-## Question 3 # Instalation process
+## Question 3 
+### App doesnt work on mt PC or Computer 
+This is stricly a mobile application# Instalation process
 Download the file -> Follow the intrsuction in the README on how to run/use it -> Choose where the file will install to -> The intaller will copy the file to your computer
 
 You are now free to use the app
@@ -26,5 +29,8 @@ NB. Be sure to follow the intructions in the description
 - Always Fullscreen 
 - Only onle screen available
 - User friendly interface 
-- basic and clear design 
+- Basic and clear design 
+
+
+## Demo
 
