@@ -14,7 +14,7 @@ Restart your Application
 ### Always invalid output
 Enter: morning, mid-morning, afternoon, mid-afternoon, dinner, after dinner
 
-### Question 3 # Instalation process
+## Question 3 # Instalation process
 Download the file -> Follow the intrsuction in the README on how to run/use it -> Choose where the file will install to -> The intaller will copy the file to your computer
 
 You are now free to use the app
